@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Word Wiz</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>Word Wiz</h1>
+    </header>
+    <div class="container">
+    <div class="difficulty">
+        <select name="levels_select" id="levels_select" class="levelselect" onChange="difficulty()">
+            <option class="option" value="7">Easy</option>
+            <option class="option" value="5">Medium</option>
+            <option class="option" value="3">Hard</option>
+        </select>
+    </div>
+    <div class="banner">
+
+        <p>Type The Given Word Within <span class="font-bold" id="seconds" class="seconds"></span> Seconds: </p>
+    </div>
+    <div class="time">
+        <h3>Time Left: <span id="timedisplay"></span> </h3>
+    </div>
+    <div>
+        <h2 class="word" id="current-word"></h2>
+    </div>
+    <div class="score">
+            <h3>Score: <span id="scoredisplay">0</span> </h3>
+          </div>
+<hr>
+          <div class="input">
+                <input type="text" class="wordinput" placeholder="Start Typing..." id="word-input" autofocus>
+          </div>
+
+<div class="message">
+        <h4 id="message"></h4>
+</div>
+</div>
+<div class="instructions">
+        <h5>Instructions</h5>
+        <p>Type each word in the given amount of seconds to score. To play again, just type the current word.Your score will reset.</p>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/script.js">
+</script>
+</body>
+
+</html>
