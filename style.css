@@ -1,0 +1,151 @@
+html {
+	font-size: 62.5%;
+}
+body {
+	background: #0c82f9;
+	max-height: 50vh;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.header {
+	width: 100%;
+	height: 5rem;
+	background: #464141;
+}
+.header h1 {
+	font-size: 3rem;
+	color: white;
+	margin: 0;
+	padding: 0;
+	padding-top: 1rem;
+	text-align: center;
+}
+.container {
+	width: 80%;
+	margin: 0 10%;
+}
+.difficulty {
+	width: 100%;
+	text-align: center;
+	padding: 2rem 0rem;
+}
+.levelselect {
+	background: transparent !important;
+	color: white;
+	border-radius: 1rem;
+	padding: 1rem;
+	border: .2rem black solid;
+}
+.option {
+	background: #0c82f9 !important;
+	color: white;
+	padding: 1rem;
+}
+.banner {
+	width: 100%;
+	font-size: 1.5rem;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+.banner p {
+	padding: 0;
+	margin: 0;
+	color: black;
+	font-weight: 700;
+	font-size: 1.5rem;
+	text-align: center;
+}
+.seconds {
+	color: white;
+	font-size: 1.5rem;
+}
+.font-bold {
+	font-weight: bold;
+}
+.time {
+	width: 20%;
+	float: left;
+	text-align: center;
+	font-size: 1.5rem;
+}
+.word {
+	width: 60%;
+	float: left;
+	font-size: 2.5rem;
+	text-align: center;
+	color: white;
+}
+.score {
+	width: 20%;
+	float: left;
+	text-align: center;
+	font-size: 1.5rem;
+}
+hr {
+	clear: both;
+	background: black;
+	height: 1px;
+	padding: 0;
+	margin: 2rem 0;
+	border: none;
+}
+.input {
+	width: 100%;
+}
+.wordinput {
+	width: 100%;
+	height: 4rem;
+	border-radius: 1rem;
+	padding: 0 .5rem;
+}
+.message {
+	width: 100%;
+	height: 2rem;
+	text-align: center;
+	font-size: 1.5rem;
+}
+.instructions {
+	background: #464141;
+	padding: 1rem;
+	color: white;
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+@media only screen and (min-width: 320px){
+	html{
+		font-size: 60% !important;
+	}
+}
+
+@media only screen and (min-width: 425px){
+		html{
+		font-size: 62.5% !important;
+	}
+}
+
+@media only screen and (min-width: 768px){
+		html{
+		font-size: 75% !important;
+	}
+}
+
+@media only screen and (min-width: 1024px){
+		html{
+		font-size: 90% !important;
+	}
+}
+
+@media only screen and (min-width: 1440px){
+		html{
+		font-size: 100% !important;
+	}
+}
+
+@media only screen and (min-width: 2560px){
+		html{
+		font-size: 200% !important;
+	}
+}
